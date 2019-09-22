@@ -11,6 +11,7 @@ body {
     color: blueviolet;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0 px;
+    text-align: center
 }
 div {
     min-height: 30vh;
@@ -31,7 +32,6 @@ img {
     display: flex;
     padding: 20px;
     margin: 0 auto;
-    border-radius: 130px;
 }
 
 @import "compass/css3";
@@ -102,4 +102,17 @@ li {
 li:hover {
     font-size: 1.2em;
     transition: 0.6s ease;
+
+body {font-family: Copperplate, "Copperplate Gothic Light", sans-serif; 
+      font-weight: bold;
+      text-align: center;
+      font-family:   'Open Sans Condensed', sans-serif;
+    }
+
+.navigation a {
+  text-decoration: coral;
+  display: block;
+  padding: 1em;
+  color: rgb(255, 255, 255);
 }
+
